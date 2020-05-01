@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../photos/photo-1508004175-d3800a00b4d5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    background: none;/*pas de background*/
+    border-radius: 1rem ;/*arrondis */
+    opacity: .9;
+}
+
+input[type="text"]{
+    border: none;/*pas de bordure*/
+    width: 80%;
+    background: none;/*pas de background*/
+    border-radius: 1rem;
+    border-bottom: 2px solid white;/*application de la bordure de bas*/
+    color: white;
+    padding: 5px;
+    font-size: 18px;/*taille  du texte*/
+    margin: 12px 0;
+    outline:none;/*enlever les lignes de bordure*/
+   
+}
+input[type="password"]{
+    width: 50%;/*prends 50% sur les 100%  de la taille de la page*/
+    background: none;
+    border-radius: 1rem;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    border-radius: 1rem;
+    outline:none;/*enlever les lignes de bordure*/
+}
+/*meme chose qu'en haut*/
+textarea{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    border-radius: 1rem;
+    outline:none;
+    
+}
+form{
+    width: 700px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;/*s'adapter a la taille de la boite*/
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px
+}
+/*appliquer une petite animation a chaque chargement de page*/
+ input[type="text"],
+ input[type="password"]{
+    transition: .5s;
+}/*lorsqu'on clique dessus ,ca appliquera les ceci*/
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus{
+    top: -18px;
+    left: 0;
+    color:pink;
+    font-size: 20px;
+}
+/*differentes marges*/
+.nav-link a{
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+}
+select{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px white;
+    width: 150px;
+    color: black;/*couleur noir au texte*/
+    background: none;
+    border-bottom: 1px solid white;
+    border:none;/*enlever les bordure*/
+    outline:none;/*enlever les lignes de bordure*/
+}
+option{
+    color: black;
+    background:none;
+}
+
+.btn{
+    width: 20%;
+    background: rgb(71, 26, 64);;
+    border: 2px solid rgb(71, 26, 64);;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;/*attribution d'un pointeur predefinit*/
+    margin: 12px 0;
+    outline: none;
+    border-bottom: 2px solid rgb(71, 26, 64);
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;/*epaisseur du texte*/
+    letter-spacing: 8px;/*espacement entre les lettres*/
+    margin-bottom: 20px;/*bordure de bas*/
+    position: relative;
+   
+}
